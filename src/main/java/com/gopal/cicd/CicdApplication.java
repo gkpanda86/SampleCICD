@@ -25,7 +25,7 @@ public class CicdApplication extends SpringBootServletInitializer {
 	@RequestMapping(value="/",method = RequestMethod.GET)
     public String getMessage() {
 
-        return "Hello, Gopal";
+        return "Hello, Connor";
     }
 
 }
